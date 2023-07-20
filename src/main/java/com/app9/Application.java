@@ -89,6 +89,7 @@ public class Application implements CommandLineRunner {
 		user.setLastName("Shelby");
 		changeUser(user, sessionHeader);
 		deleteUser(user, sessionHeader);
+		System.out.println("Answer: 5ebfeb e7cb97 5dfcf9");
 		System.out.println("==========================================================================");
 		((ConfigurableApplicationContext) ctx).close();
 	}
